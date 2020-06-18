@@ -24,3 +24,25 @@ body {
 .text-light {
   color: var(--lightPink);
 }
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border:2px solid var(--mainDark) !important;
+  line-height: 32px !important;
+  padding: 0 12px!important;
+  height: 35px;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--lightPink) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 14px !important;
+  color: var(--lightPink);
+}
